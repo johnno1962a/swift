@@ -409,7 +409,7 @@ public func testResourceAndVariants() {
   //     .Attr("output_shapes: list(shape) >= 1")
   //     .SetShapeFn(shape_inference::ScalarShape);
 
-  TODO(SR-8117): Revert the artificially long strong literals below.
+  // TODO(SR-8117): Revert the artificially long strong literals below.
   let iterator: ResourceHandle =
     #tfop("Iterator", shared_name: "fooLoooooooooooooooongWord",
           container: "barLoooooooooooooooongWord",
